@@ -3,6 +3,6 @@ pandas
 matplotlib
 yfinance
 plotly
-streamlit
+streamlit==1.10.0
 seaborn
 pickle
