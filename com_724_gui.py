@@ -38,7 +38,7 @@ duration_type_list = ["day", "week", "month", "quarter"]
 duration_map = {"day": 1, "week": 7, "month": 30, "quarter": 90}
 models_list = ["Random Forest"]
 
-st.title("SOLiGence Live Crypto Trend \n Dashboard")
+st.title("SOLiGence Live Crypto Trend Dashboard")
 
 currency_filter = st.selectbox("Select the Currency", tickers_list)
 
