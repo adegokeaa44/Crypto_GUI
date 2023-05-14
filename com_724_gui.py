@@ -17,6 +17,7 @@ import streamlit as st
 import datetime
 import seaborn as sns
 import pickle
+from altair.vegalite.v4.api import Chart
 
 tickers_list = ['BTC-USD', 'ETH-USD', 'USDT-USD', 'BNB-USD', 'USDC-USD', 'HEX-USD',
  'XRP-USD',
