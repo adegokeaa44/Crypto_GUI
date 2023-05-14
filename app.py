@@ -1,3 +1,5 @@
+#NEW
+
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -8,7 +10,6 @@ import streamlit as st
 import datetime
 import seaborn as sns
 import pickle
-
 
 tickers_list = ['BTC-USD', 'ETH-USD', 'USDT-USD', 'BNB-USD', 'USDC-USD', 'HEX-USD',
  'XRP-USD',
@@ -30,7 +31,7 @@ duration_type_list = ["day", "week", "month", "quarter"]
 duration_map = {"day": 1, "week": 7, "month": 30, "quarter": 90}
 models_list = ["Random Forest"]
 
-st.title("SOLiGence Live Crypto Trend Dashboard")
+st.title("SOLiGence Real-Time Cryptocurrency Dashboard")
 
 currency_filter = st.selectbox("Select the Currency", tickers_list)
 
@@ -149,3 +150,4 @@ with placeholder.container():
                     st.write(fig3)
                 else:
                     st.write("No dates found!!")
+
