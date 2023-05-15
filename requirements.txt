@@ -5,3 +5,4 @@ yfinance
 plotly
 streamlit==1.9.0
 seaborn
+altair.vegalite.v4
