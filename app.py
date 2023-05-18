@@ -110,7 +110,7 @@ with placeholder.container():
                      label='Rolling Close Values')
         st.write(fig8)
 
-    with st.expander("Find your bet!!"):
+    with st.expander("Forcast Profit!"):
 
         duration_filter = st.selectbox("Select the Duration", duration_type_list)
         profit_filter = int(st.number_input('Insert the required profit'))
