@@ -11,27 +11,15 @@ import datetime
 import seaborn as sns
 import pickle
 
-tickers_list = ['BTC-USD', 'ETH-USD', 'USDT-USD', 'BNB-USD', 'USDC-USD', 'HEX-USD',
- 'XRP-USD',
- 'LUNA1-USD',
- 'SOL-USD',
- 'ADA-USD',
- 'UST-USD',
- 'BUSD-USD',
- 'DOGE-USD',
- 'AVAX-USD',
- 'DOT-USD',
- 'SHIB-USD',
- 'WBTC-USD',
- 'STETH-USD',
- 'DAI-USD',
- 'MATIC-USD']
+tickers_list = ['BTC-USD', 'ETH-USD', 'USDT-USD', 'LTC-USD', 'BCH-USD', 'BNB-USD', 
+                'LINK-USD', 'ADA-USD', 'XLM-USD', 'DOGE-USD', 'DOT1-USD', 'UNI3-USD', 'THETA-USD', 
+                'VET-USD', 'EOS-USD', 'TRX-USD', 'ATOM1-USD', 'BSV-USD', 'XMR-USD', 'IOTX-USD']
 
 duration_type_list = ["day", "week", "month", "quarter"]
 duration_map = {"day": 1, "week": 7, "month": 30, "quarter": 90}
 models_list = ["Random Forest"]
 
-st.title("SOLiGence Real-Time Cryptocurrency Dashboard")
+st.title("SOLiGence Live Cryptocurrency Prices \nDASHBOARD")
 
 currency_filter = st.selectbox("Select the Currency", tickers_list)
 
